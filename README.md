@@ -4,8 +4,9 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-A short description of the project.
+This project focuses on predicting precipitation in Australia using machine learning. Two XGBoost models were developed: a regression model to predict the precipitation sum over the next three days, and a classification model to predict whether it will rain seven days ahead. The models are trained on historical weather data from [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api).
 
+The model has been deployed on Render: https://adv-mla-at2-25552249.onrender.com 
 ## Project Organization
 
 ```
